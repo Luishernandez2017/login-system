@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <base href="/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/public/" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    {% for message in flash_messages %}
+    <div class="alert alert-{{message.type}}">
+        {{ message.body }}
+    </div>
+    {% endfor %}
+    <nav>
+        <a href="">Home</a> |
+        <a href="posts/index">Posts</a>
+    </nav>
+
+    {% block body %} {% endblock %}
+</body>
+
+</html>

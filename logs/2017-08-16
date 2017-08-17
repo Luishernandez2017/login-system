@@ -1,0 +1,10 @@
+[16-Aug-2017 22:49:54 Europe/Paris] Uncaught exception: 'Error' with message 'Call to a member function getUser() on boolean'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Auth.php(115): App\Auth::loginFromRememberCookie()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(47): App\Auth::getUser()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(22): Core\View::renderTemplate('Home/index.html', Array)
+#3 [internal function]: App\Controllers\Home->indexAction()
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#7 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Auth.php' on line: 134

@@ -1,0 +1,26 @@
+Generate unique, random tokens and secure hashes
+
+
+RANDOM TOKEN
+ options:
+
+ //unsecure can be predicted
+ rand(); generates a random interger
+
+ uniqid(); generates a unique ID based on current time
+
+
+//secured
+ random_bytes(); Generates cryptographically secure pseudo-random random_bytes
+
+
+HASHING the token
+
+HMAC hashbased Message Authentication Code :
+similiar to salt but much stronger.
+
+
+hash_hmac($algorthym, $string, $key);
+hash_hmac('sha256', 'hello', 'secretkey');
+
+http://randomkeygen.com

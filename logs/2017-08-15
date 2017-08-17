@@ -1,0 +1,186 @@
+[15-Aug-2017 09:10:26 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: password'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 09:14:11 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 09:14:20 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: password'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 09:55:18 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(50): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 50, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 50
+[15-Aug-2017 09:57:31 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: password'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 09:58:11 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 09:58:42 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: password'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(35): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 10:01:42 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[15-Aug-2017 10:13:11 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[15-Aug-2017 10:13:26 Europe/Paris] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Hallo not found'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('hallo/hallo')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 152
+[15-Aug-2017 10:22:34 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(21): Core\View::renderTemplate('Login/index.htm...')
+#2 [internal function]: App\Controllers\Login->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:22:42 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(21): Core\View::renderTemplate('Login/index.htm...')
+#2 [internal function]: App\Controllers\Login->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:24:58 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(21): Core\View::renderTemplate('Login/index.htm...')
+#2 [internal function]: App\Controllers\Login->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:25:51 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(22): Core\View::renderTemplate('Home/index.html', Array)
+#2 [internal function]: App\Controllers\Home->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:25:52 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(22): Core\View::renderTemplate('Home/index.html', Array)
+#2 [internal function]: App\Controllers\Home->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:25:59 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Core\Error::errorHandler(8, 'Array to string...', 'C:\\wamp\\www\\PHP...', 48, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(21): Core\View::renderTemplate('Login/index.htm...')
+#2 [internal function]: App\Controllers\Login->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php' on line: 48
+[15-Aug-2017 10:26:16 Europe/Paris] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function Twig_Environment::addGlobal(), 1 passed in C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php on line 48 and exactly 2 expected'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Twig_Environment->addGlobal('flash_messages')
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(21): Core\View::renderTemplate('Login/index.htm...')
+#2 [internal function]: App\Controllers\Login->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php' on line: 1326
+[15-Aug-2017 10:26:17 Europe/Paris] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function Twig_Environment::addGlobal(), 1 passed in C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php on line 48 and exactly 2 expected'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(48): Twig_Environment->addGlobal('flash_messages')
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(22): Core\View::renderTemplate('Home/index.html', Array)
+#2 [internal function]: App\Controllers\Home->indexAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php' on line: 1326
+[15-Aug-2017 10:42:31 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(35): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 35, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 35
+[15-Aug-2017 10:44:40 Europe/Paris] Uncaught exception: 'Error' with message 'Class 'App\Controllers\Flash' not found'
+ Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 41
+[15-Aug-2017 10:45:15 Europe/Paris] Uncaught exception: 'Error' with message 'Class 'App\Controllers\Flash' not found'
+ Stack trace: #0 [internal function]: App\Controllers\Login->createAction()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#4 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 41
+[15-Aug-2017 10:54:01 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('show-logout-mes...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[15-Aug-2017 11:32:09 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/css/style...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[15-Aug-2017 11:33:29 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(36): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 36, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 36
+[15-Aug-2017 11:38:04 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: email'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php(36): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 36, Array)
+#1 [internal function]: App\Controllers\Login->createAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('create', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('login/create')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Login.php' on line: 36

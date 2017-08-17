@@ -1,0 +1,163 @@
+[14-Aug-2017 14:10:50 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:13:19 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:13:20 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:13:45 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:16:31 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:16:55 Europe/Paris] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected token "operator" of value "%".'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(102): Twig_ExpressionParser->parsePrimaryExpression()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\ExpressionParser.php(55): Twig_ExpressionParser->getPrimary()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(147): Twig_ExpressionParser->parseExpression()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\TokenParser\Block.php(40): Twig_Parser->subparse(Array, true)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(190): Twig_TokenParser_Block->parse(Object(Twig_Token))
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Parser.php(103): Twig_Parser->subparse(NULL, false)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(692): Twig_Parser->parse(Object(Twig_TokenStream))
+#7 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(750): Twig_Environment->parse(Object(Twig_TokenStream))
+#8 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(447): Twig_Environment->compileSource(Object(Twig_Source))
+#9 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Environment.php(362): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\View.php(46): Twig_Environment->render('Home/index.html', Array)
+#11 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#14 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#15 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('')
+#16 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Views\Home\index.html' on line: 7
+[14-Aug-2017 14:42:20 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(40): Core\Router->dispatch('destroy')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 15:30:22 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 15:31:10 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 15:34:43 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 15:35:27 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 20:40:13 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('items')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 20:40:30 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('PHP-course/Udem...')
+#1 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
+[14-Aug-2017 20:41:41 Europe/Paris] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found'
+ Stack trace: #0 [internal function]: App\Controllers\Items->indexAction()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('items/index')
+#4 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Items.php' on line: 25
+[14-Aug-2017 20:43:48 Europe/Paris] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found'
+ Stack trace: #0 [internal function]: App\Controllers\Items->indexAction()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('items/index')
+#4 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Items.php' on line: 23
+[14-Aug-2017 20:47:06 Europe/Paris] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found'
+ Stack trace: #0 [internal function]: App\Controllers\Items->indexAction()
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(34): call_user_func_array(Array, Array)
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('index', Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(41): Core\Router->dispatch('items/index')
+#4 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Items.php' on line: 23

@@ -1,0 +1,8 @@
+#Model
+ -code to model data logic e.g 'database, object models'
+
+#Controller 
+ - application code that communicates with models and views
+
+ #views
+ - display code logic for user interface.
