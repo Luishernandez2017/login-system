@@ -21,13 +21,13 @@
         * Database username
         *@var string
         */
-        const DB_USER ="Alexander";
+        const DB_USER ="root";
 
         /**
         * Database password
         *@var string
         */
-        const DB_PASS ="Great";
+        const DB_PASS ="";
 
         /**
         * Show or hide error message on screen
@@ -39,7 +39,7 @@
         * Root_Path
         * @var string
         */
-         const ROOT_PATH= '/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/public/';
+         const ROOT_PATH= '/';
        
        
         /**
@@ -52,14 +52,14 @@
         * Token key
         * @var string
         */
-        //const TOKEN_KEY ="ZvXh36IP6MuuEhs5i3NapHdreZIqiTFQ";
-        const TOKEN_KEY ="topsecret";
+        const TOKEN_KEY ="ZvXh36IP6MuuEhs5i3NapHdreZIqiTFQ";
+
 
           /**
         * Cookie path
         * @var string
         */
-         const COOKIE_PATH= '/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/';
+         const COOKIE_PATH= '/';
     }
 
 
