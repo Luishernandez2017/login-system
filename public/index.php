@@ -32,7 +32,9 @@ $router->add('', ['controller' => 'Home', 'action' => 'index']);
 $router->add('signup', ['controller' => 'Signup', 'action' => 'index']); 
 $router->add('login', ['controller' => 'Login', 'action' => 'index']); 
 $router->add('logout', ['controller'=> 'Login', 'action'=>'destroy']);
-
+//token: hexidecimail only numbers and letters a-f
+$router->add('password/reset/{token:[\da-f]+}', ['controller' => 'Password', 'action'=> 'reset']);
+$router->add('signup/activate/{token:[\da-f]+}', ['controller' => 'Signup', 'action' => 'activate']);
 
 $router->add('{controller}/{action}');
 

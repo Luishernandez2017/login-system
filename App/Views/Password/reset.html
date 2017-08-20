@@ -1,0 +1,55 @@
+{% extends "base.html" %} {% block title %}Password Reset{% endblock %} {% block body %}
+
+<h1>Password Reset</h1>
+
+{% if user.errors is not empty %}
+<p>Error</p>
+<ul>
+    {% for error in user.errors %}
+    <li>{{error}}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+
+<form action="password/reset-password" method="POST" id="formPasswordReset">
+    <input type="hidden" name="token" value="{{ token }}" />
+    <div>
+        <label for="inputPassword">Password</label>
+        <input type="password" id="inputPassword" name="password_hash" placeholder="Password" required placeholder="Confirm Password" />
+    </div>
+    <div>
+        <label for="inputConfirmPassword">Confirm Password</label>
+        <input type="password" id="inputConfirmPassword" name="password_confirmation" placeholder="Confirm Password" required/>
+    </div>
+
+
+    <button type="submit" name="submitBtn"> Reset Password</button>
+
+
+</form>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script>
+    $(document).ready(function() {
+        //email remote makes ajax call
+        $("#formPasswordReset").validate({
+            rules: {
+                password_hash: {
+                    required: true,
+                    minlength: 6
+                },
+                password_confirmation: {
+                    equalTo: '#inputPassword'
+                }
+            }
+        });
+
+
+
+    });
+</script>
+
+{% endblock %}

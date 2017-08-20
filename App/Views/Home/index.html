@@ -5,5 +5,5 @@
 
 
 {% if current_user %}
-<p>Hello from a Twig template, {{ current_user.name }}!</p> <a href='logout'>Log out</a> {% else %}
+<p>Hello from a Twig template, {{ current_user.name }}!</p> {% else %}
 <a href="signup">Sign up</a> or <a href="login">Log in</a> {% endif %} {% endblock %}

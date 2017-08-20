@@ -55,11 +55,57 @@
         //const TOKEN_KEY ="ZvXh36IP6MuuEhs5i3NapHdreZIqiTFQ";
         const TOKEN_KEY ="topsecret";
 
-          /**
+        /**
         * Cookie path
         * @var string
         */
          const COOKIE_PATH= '/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/';
+
+
+        /**
+        * Enable SMTP authentication
+        * @var boolean
+        */
+        const SMT_AUTH= true;
+
+        /**
+        * SMTP username
+        * @var string
+        */
+        const SMTP_USERNAME= 'dummymailingaddress@gmail.com';
+
+
+        /**
+        * SMTP password
+        * @var string
+        */
+        const SMTP_PASSWORD= 'secretpassword123456789';
+
+        
+        /**
+        * Sender Email
+        * @var string
+        */
+        const SENDER_EMAIL= 'dummymailingaddress@gmail.com';
+
+
+        /**
+        * SMTPSecure
+        * @var string
+        */
+        const SMTP_SECURE= 'ssl';
+
+        /**
+        * TCP PORT Number to connect
+        * @var int
+        */
+        const MAIL_PORT= 465;
+
+        /**
+        * MAIL HOST SERVER
+        * @var string
+        */
+        const MAIL_HOST= 'smtp.gmail.com';
     }
 
 

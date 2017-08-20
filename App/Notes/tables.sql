@@ -81,3 +81,29 @@ CREATE TABLE `login_tokens` (
  KEY `user_id` (`user_id`),
  CONSTRAINT `fk_tokens_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+-------------------------------------------
+-- Password Reset columns for Users table
+-------------------------------------------
+
+
+ALTER TABLE `users` ADD `password_reset_hash`
+ VARCHAR(64) NULL DEFAULT NULL 
+ AFTER `password_hash`, 
+ ADD `password_reset_expires_at` DATETIME NULL DEFAULT NULL 
+ AFTER `password_reset_hash`, 
+ ADD UNIQUE (`password_reset_hash`) ;
+
+
+
+-------------------------------------------
+-- Account email activation 
+-- columns for user table
+-------------------------------------------
+
+
+ ALTER TABLE `users` ADD `activation_hash` 
+ VARCHAR(64) NULL DEFAULT NULL AFTER `password_reset_expires_at`, 
+ ADD `is_active` BOOLEAN NOT NULL DEFAULT FALSE AFTER `activation_hash`, 
+ ADD UNIQUE (`activation_hash`) ;

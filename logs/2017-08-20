@@ -1,0 +1,58 @@
+
+
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php' on line: 121
+[20-Aug-2017 15:27:57 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Models\User::$password_confirmation'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php(122): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\wamp\\www\\PHP...', 122, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php(467): App\Models\User->validate()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Profile.php(48): App\Models\User->updateProfile(Array)
+#3 [internal function]: App\Controllers\Profile->updateAction()
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('update', Array)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('profile/update')
+#7 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php' on line: 122
+[20-Aug-2017 18:29:09 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined property: App\Controllers\Profile::$user'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Profile.php(37): Core\Error::errorHandler(8, 'Undefined prope...', 'C:\\wamp\\www\\PHP...', 37, Array)
+#1 [internal function]: App\Controllers\Profile->showAction()
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('show', Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('profile/show')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Profile.php' on line: 37
+[20-Aug-2017 18:47:33 Europe/Paris] Uncaught exception: 'ErrorException' with message 'Undefined index: password'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php(465): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\wamp\\www\\PHP...', 465, Array)
+#1 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Profile.php(61): App\Models\User->updateProfile(Array)
+#2 [internal function]: App\Controllers\Profile->updateAction()
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('update', Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('profile/update')
+#6 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php' on line: 465
+[20-Aug-2017 18:51:59 Europe/Paris] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '&&' (T_BOOLEAN_AND)'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp\\www\\PHP...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Password.php(31): spl_autoload_call('App\\Models\\User')
+#3 [internal function]: App\Controllers\Password->requestResetAction()
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('requestReset', Array)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('password/reques...')
+#7 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php' on line: 489
+[20-Aug-2017 18:52:12 Europe/Paris] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '&&' (T_BOOLEAN_AND)'
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp\\www\\PHP...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Models\\User')
+#2 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Password.php(31): spl_autoload_call('App\\Models\\User')
+#3 [internal function]: App\Controllers\Password->requestResetAction()
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Controller.php(36): call_user_func_array(Array, Array)
+#5 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(143): Core\Controller->__call('requestReset', Array)
+#6 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('password/reques...')
+#7 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Models\User.php' on line: 489
+[20-Aug-2017 19:27:21 Europe/Paris] Uncaught exception: 'ParseError' with message 'syntax error, unexpected ';', expecting ',' or ')''
+ Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\wamp\\www\\PHP...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php(135): class_exists('App\\Controllers...')
+#4 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(42): Core\Router->dispatch('profile/update')
+#5 {main}
+ Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\App\Controllers\Profile.php' on line: 61

@@ -44,11 +44,6 @@ use \App\Models\User;
     */
 
     public function indexAction(){
-        // echo 'Hello from the index action in the Home controller';
-        // View::render('Home/index.php', [
-        //     'name' => 'Luis',
-        //     'colours' => ['red', 'blue', 'green', 'orange']
-        // ]);
 
 
            View::renderTemplate('Signup/index.html', [
@@ -69,7 +64,10 @@ use \App\Models\User;
          $user = new User($_POST);
        
        if($user->save()){
-      $this->redirect('signup/success');
+
+            $user->sendActivationEmail();
+
+            $this->redirect('signup/success');
  
        // header('Location:'.Config::ROOT_URL.Config::ROOT_PATH.'success', true, 303);
         exit;
@@ -92,6 +90,25 @@ use \App\Models\User;
     public function successAction(){
 
         View::renderTemplate('Signup/success.html');
+    }
+
+    /**
+    * Activate a new account
+    * 
+    * @return void
+    */
+    public function activateAction(){
+        User::activate($this->route_params['token']);
+        $this->redirect('signup/activated');
+    }
+    
+    /**
+    * Show the activation success page
+    *
+    * @return void
+    */
+    public function activatedAction(){
+        View::renderTemplate('Signup/activated.html');
     }
 
  

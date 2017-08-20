@@ -37,19 +37,32 @@ class View{
      */
     public static function renderTemplate($template, $args = [])
     {
-        static $twig = null;
+        echo static::getTemplate($template, $args);
+       
 
-        if ($twig === null) {
-            $loader = new \Twig_Loader_Filesystem(dirname(__DIR__).'/App/Views/');
-            $twig = new \Twig_Environment($loader);
-            //$twig->addGlobal('session', $_SESSION);
-            //$twig->addGlobal('is_logged_in', Auth::isLoggedIn());
-             $twig->addGlobal('current_user', Auth::getUser());      
-             $twig->addGlobal('flash_messages',Flash::getMessages());      
-        }
-
-        echo $twig->render($template, $args);
     }
+
+    /**
+     * Get the contents of a view template using Twig
+     *
+     * @param string $template  The template file
+     * @param array $args  Associative array of data to display in the view (optional)
+     *
+     * @return string
+     */
+     public static function getTemplate($template, $args = [])
+     {
+         static $twig = null;
+ 
+         if ($twig === null) {
+             $loader = new \Twig_Loader_Filesystem(dirname(__DIR__).'/App/Views/');
+             $twig = new \Twig_Environment($loader);
+              $twig->addGlobal('current_user', Auth::getUser());      
+              $twig->addGlobal('flash_messages',Flash::getMessages());      
+         }
+ 
+         return $twig->render($template, $args);
+     }
 }
 
 

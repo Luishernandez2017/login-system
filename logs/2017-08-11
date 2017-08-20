@@ -1,9 +1,0 @@
-[11-Aug-2017 00:08:33 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
- Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(54): Core\Router->dispatch('signup/signup/s...')
-#1 {main}
- Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
-[11-Aug-2017 10:23:02 Europe/Paris] Uncaught exception: 'Exception' with message 'No route matched.'
- Stack trace: #0 C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\public\index.php(54): Core\Router->dispatch('home')
-#1 {main}
- Thrown in 'C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\Core\Router.php' on line: 157
-[11-Aug-2017 10:23:02 Europe/Paris] PHP Fatal error:  Class Twig_Node contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (IteratorAggregate::getIterator) in C:\wamp\www\PHP-course\Udemy PHP\PHP_FRAMEWORK\MVC2\MVC_Login_System\vendor\twig\twig\lib\Twig\Node.php on line 18

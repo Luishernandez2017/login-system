@@ -44,7 +44,17 @@ class Login extends Controller{
             Flash::addMessage('Login Successful');
 
             //$this->redirect('/');
-            $this->redirect(Auth::getReturnToPage(), true);
+
+            //if it ('') it returns to login/create
+        if(Auth::getReturnToPage() == ''){
+            $this->redirect(Config::ROOT_PATH, true);
+        }else{
+            //return from page you came from
+           $this->redirect(Auth::getReturnToPage(), true);
+        }
+
+          // var_dump(Auth::getReturnToPage());
+            
 
         } else {
              Flash::addMessage('Login unsuccessful, please try again.', Flash::WARNING);
