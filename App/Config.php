@@ -21,13 +21,13 @@
         * Database username
         *@var string
         */
-        const DB_USER ="Alexander";
+        const DB_USER ="root";
 
         /**
         * Database password
         *@var string
         */
-        const DB_PASS ="Great";
+        const DB_PASS ="";
 
         /**
         * Show or hide error message on screen
@@ -39,7 +39,7 @@
         * Root_Path
         * @var string
         */
-         const ROOT_PATH= '/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/public/';
+         const ROOT_PATH= '/';
        
        
         /**
@@ -59,7 +59,7 @@
         * Cookie path
         * @var string
         */
-         const COOKIE_PATH= '/PHP-course/Udemy%20PHP/PHP_FRAMEWORK/MVC2/MVC_Login_System/';
+         const COOKIE_PATH= '/';
 
 
         /**
@@ -72,21 +72,21 @@
         * SMTP username
         * @var string
         */
-        const SMTP_USERNAME= 'dummymailingaddress@gmail.com';
+        const SMTP_USERNAME= 'myemail@gmail.com';
 
 
         /**
         * SMTP password
         * @var string
         */
-        const SMTP_PASSWORD= 'secretpassword123456789';
+        const SMTP_PASSWORD= 'password';
 
         
         /**
         * Sender Email
         * @var string
         */
-        const SENDER_EMAIL= 'dummymailingaddress@gmail.com';
+        const SENDER_EMAIL= 'myemail@gmail.com';
 
 
         /**
